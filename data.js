@@ -17,5 +17,11 @@ const data = {
         dept: "Computer science and engineering",
         NumberOfPhotos: 2,
     },
+    pooja: {
+        fname:"pooja",
+        lname:"mp",
+        dept: "Computer science and engineering",
+        NumberOfPhotos: 2,
    }
+}
 export default data;
