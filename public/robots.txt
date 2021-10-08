@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kaade.netlify.app
+
+# Sitemaps
+Sitemap: https://kaade.netlify.app/sitemap.xml

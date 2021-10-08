@@ -1,0 +1,116 @@
+.images {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.images img {
+    transition: transform .5s;
+    max-height: 60vh;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.pics {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.pics img {
+    margin-top: 100px;
+    transition: transform .5s;
+    max-height: 60vh;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 100px;
+}
+
+img:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.Name_main{
+    margin-left: 10%;
+}
+
+.yasin_img_2 {
+    height: 50vh;
+}
+
+.images_left {
+    display: grid;
+    justify-items: center;
+}
+
+.name {
+    margin-bottom: 10vh;
+    font-size: 3rem;
+    font-family: 'Andada';
+    text-transform: uppercase;
+    color: #040fa1;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.name_mob {
+    margin-bottom: 10vh;
+    font-size: 3vh;
+    font-family: 'Andada';
+}
+
+.mobile {
+    display: none;
+}
+
+.back_button {
+    height: 60px;
+    border-radius: 10px;
+    transition: transform .5s;
+}
+
+.back_button img {
+    height: 50px;
+}
+
+.back_button img:hover {
+    height: 50px;
+    transform: scale(1.2);
+}
+
+@media (orientation: portrait) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .photo {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .photo img {
+        margin-bottom: 100px;
+        border-radius: 50%;
+        max-height: 40vh;
+        min-width: 55vw;
+        transition: transform .5s;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    }
+    .name {
+        margin-bottom: 5vh;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 3rem;
+    }
+    .name h1 {
+        font-size: 4rem;
+    }
+    .photo img:hover {
+        transform: scale(1.5);
+    }
+}
