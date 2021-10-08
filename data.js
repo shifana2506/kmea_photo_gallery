@@ -8,7 +8,7 @@ const data = {
     anju: {
         fname: "anju",
         lname: "gopan",
-        dept: "Computer science and engineering",
+        dept: "CSE",
         NumberOfPhotos: 2,
     }
    }
