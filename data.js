@@ -28,6 +28,12 @@ const data = {
         lname:"mp",
         dept: "Computer science and engineering",
         NumberOfPhotos: 2,
-   }
+   },
+     jeethu: {
+        fname: "jeethu",
+        lname: "joshy",
+        dept: "Computer science and engineering",
+        NumberOfPhotos: 2,
+    }
 }
 export default data;
