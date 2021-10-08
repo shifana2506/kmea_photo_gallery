@@ -34,6 +34,11 @@ const data = {
         lname: "joshy",
         dept: "Computer science and engineering",
         NumberOfPhotos: 2,
-    }
+    },
+    shifana: {
+        fname: "shifana",
+        lname: "abdul azeez",
+        dept: "Computer science and engineering",
+        NumberOfPhotos: 1,
 }
 export default data;
